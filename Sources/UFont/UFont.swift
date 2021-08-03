@@ -1,7 +1,7 @@
 import Foundation
 
 /// Universal Font model
-public struct UFont: Equatable, Hashable {
+public struct UFont: Equatable, Hashable, Codable {
 	public var family: UFontFamily
 	public var size: CGFloat
 	
